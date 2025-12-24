@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Image Compressor",
+    "description": "A client-side image compression tool that preserves quality while reducing file size.",
+    "type": "tool",
+    "link": "#launch-image-compressor"
+  },
+  {
+    "title": "Color Palette Generator",
+    "description": "Generate accessible color palettes based on a single primary color.",
+    "type": "tool",
+    "link": "#launch-color-palette"
+  },
+  {
+    "title": "Regex Tester",
+    "description": "Test and debug regular expressions in real-time.",
+    "type": "tool",
+    "link": "#launch-regex-tester"
+  },
+  {
+    "title": "Space Invaders Clone",
+    "description": "A classic retro arcade game built with HTML5 Canvas.",
+    "type": "game",
+    "link": "#launch-space-invaders"
+  },
+  {
+    "title": "Sudoku Solver",
+    "description": "Interactive Sudoku solver using backtracking algorithm.",
+    "type": "game",
+    "link": "#launch-sudoku"
+  }
+]

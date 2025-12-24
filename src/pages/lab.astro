@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ExternalLink, Rocket } from 'lucide-react';
+import labItems from '../data/lab-items.json';
+
+const tools = labItems.filter(item => item.type === 'tool');
+const games = labItems.filter(item => item.type === 'game');
+---
+
+<Layout title="The Lab">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+		<header class="mb-16 text-center">
+			<h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">The Lab</h1>
+			<p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+				My playground for experimental projects, tools, and games.
+			</p>
+		</header>
+
+		<!-- Tools Section -->
+		<section class="mb-20">
+			<div class="flex items-center gap-3 mb-8">
+				<div class="h-8 w-1 bg-indigo-600 rounded-full"></div>
+				<h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Tools</h2>
+			</div>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+				{tools.map((item) => (
+					<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-gray-100 dark:border-zinc-800 p-6 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+						<div class="absolute top-0 right-0 p-4 opacity-50 group-hover:opacity-100 transition-opacity">
+							<div class="bg-indigo-50 dark:bg-indigo-900/30 p-2 rounded-full text-indigo-600 dark:text-indigo-400">
+								<Rocket className="w-5 h-5" />
+							</div>
+						</div>
+						<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">{item.title}</h3>
+						<p class="text-gray-500 dark:text-gray-400 mb-6 line-clamp-2">{item.description}</p>
+						<a href={item.link} class="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors">
+							Launch 
+							<ExternalLink className="ml-1 w-4 h-4" />
+						</a>
+					</div>
+				))}
+			</div>
+		</section>
+
+		<!-- Games Section -->
+		<section>
+			<div class="flex items-center gap-3 mb-8">
+				<div class="h-8 w-1 bg-violet-600 rounded-full"></div>
+				<h2 class="text-2xl font-semibold text-gray-900 dark:text-white">Games</h2>
+			</div>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				{games.map((item) => (
+					<div class="group relative overflow-hidden rounded-3xl bg-gray-900 text-white p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+                        <!-- Decorative gradient background overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-br from-violet-600/20 to-indigo-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+						<div class="relative z-10">
+                            <h3 class="text-2xl font-bold mb-3">{item.title}</h3>
+                            <p class="text-gray-300 mb-8 max-w-sm">{item.description}</p>
+                            <a href={item.link} class="inline-flex items-center px-6 py-2 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/10 transition-colors">
+                                Play Now
+                            </a>
+                        </div>
+					</div>
+				))}
+			</div>
+		</section>
+	</div>
+</Layout>

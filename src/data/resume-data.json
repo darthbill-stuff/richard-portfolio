@@ -1,0 +1,150 @@
+[
+    {
+        "company": "Xima Software",
+        "role": "Software Development Manager",
+        "date": "2021 - Present",
+        "description": "Xima's new SaaS solution was off the ground and they needed a leader to manage the team of engineers that would be responsible for it. I put my manager cap back on and started managing a full stack team of software and DevOps engineers.\n\n• Lead and mentor a full-stack team of 6 software and DevOps engineers responsible for Xima's flagship SaaS product, fostering a high-performance, supportive culture.\n• Direct the agile development lifecycle for Xima's SaaS platform, partnering with product management and cross-functional teams to define roadmaps, prioritize features using Jira, and ensure timely delivery of business-critical updates.\n• Maintain exceptional SaaS platform stability and performance, consistently achieving 99.95% uptime quarter after quarter by enhancing proactive monitoring systems and establishing a robust on-call rotation process.\n• Successfully prepared for and completed security audits resulting in SOC 2 and ISO 27001 certifications.\n• Implemented a streamlined release management process, enabling rapid and secure delivery of new SaaS features and improvements to customers while ensuring rigorous quality through automated testing and post-deployment monitoring.\n• Provide hands-on technical leadership in deploying, updating, and troubleshooting the SaaS solution, frequently leveraging Kubernetes, log analysis, and cloud infrastructure expertise to resolve complex issues.",
+        "stack": [
+            "Project Management",
+            "Team Leadership",
+            "Strategic Planning",
+            "Stakeholder Management",
+            "Agile Project Management",
+            "Project Planning",
+            "SIP",
+            "Kubernetes",
+            "GKE",
+            "AWS",
+            "Escalation Management",
+            "Docker",
+            "Performance Management",
+            "Networking",
+            "Gitlab",
+            "Jira",
+            "Prometheus.io",
+            "DevOps",
+            "Release Management",
+            "AI",
+            "Grafana",
+            "Google Cloud Platform",
+            "Risk Management"
+        ]
+    },
+    {
+        "company": "Xima Software",
+        "role": "Cloud Platform System Administrator",
+        "date": "2020 - 2021",
+        "description": "Xima decided to pivot into new territory. The business wanted to develop a new SaaS solution that would bring all the great features from our on-prem solution, Chronicall, to the growing telecom market in the cloud. This was to be the future of Xima. I was excited about the idea of learning new technologies and pioneering another branch of Xima. So we made it happen.\n\n• Spearheaded the project to deploy and manage the mission-critical cloud infrastructure on GCP's GKE for Xima's flagship SaaS product, rapidly mastering Kubernetes and Helm to deploy and manage containerized applications.\n• Ensured high availability and performance of Xima's new SaaS platform by architecting and deploying a comprehensive monitoring stack using Prometheus and Grafana, enabling proactive issue detection and achieving a 99.95% uptime.\n• Designed, developed, and delivered comprehensive training programs and technical documentation, accelerating internal adoption and operational readiness for the new SaaS product.\n• Played a pivotal role as a key technical resource in the successful development and launch of Xima's next-generation SaaS product, contributing expertise across infrastructure, monitoring, and internal enablement.",
+        "stack": [
+            "Project Management",
+            "Cloud Computing",
+            "Kubernetes",
+            "GCP",
+            "Prometheus.io",
+            "GKE",
+            "SIP",
+            "AWS",
+            "Docker",
+            "Networking",
+            "Gitlab",
+            "Jira",
+            "DevOps",
+            "Grafana",
+            "Troubleshooting",
+            "Helm Charts"
+        ]
+    },
+    {
+        "company": "Xima Software",
+        "role": "Technical Support Manager",
+        "date": "2019 - 2020",
+        "description": "While at Dell Technologies I would often think about how the principles and practices I learned from a massive enterprise like Dell could improve processes at Xima. So it was a happy coincidence when I heard Xima needed a Technical Support Manager again. I felt like the timing was right to go back, so I accepted a position to return with the goal to raise Xima's customer support to another level.\n\n• Recruited back to Xima as Technical Support Manager to stabilize operations and restore customer confidence.\n• Overhauled the escalation management process, leading to a significant reduction in product returns (or 'critical escalations') and enhancing customer retention, which contributed to Xima achieving record revenue quarters.\n• Developed and documented a dedicated lab environment, enhancing team training and contributing to a 10% improvement in first-call resolution.\n• Fostered a highly positive and stable team environment through a new recognition program and targeted support initiatives, resulting in 100% employee retention during my 15 month tenure.\n• Developed and implemented dashboards using Google Data Studio to track key performance indicators, enabling a data-driven approach to managing team performance and identifying improvement areas.",
+        "stack": [
+            "Team Leadership",
+            "Project Management",
+            "Performance Management",
+            "Escalation Management",
+            "Strategic Planning",
+            "Zendesk",
+            "Cross-functional Leadership",
+            "Jira",
+            "Google Data Studio",
+            "Employee Training",
+            "Customer Service"
+        ]
+    },
+    {
+        "company": "Dell Technologies",
+        "role": "Manager, Ent Tech Services",
+        "date": "2018",
+        "description": "It was time to take on something new, so I engaged with a recruiter who invited me to apply to a new manager position at Dell Technologies. A short time later I joined the team.\n\n• Collaborated within a global management team to direct Dell EMC's NetWorker product support operations, maintaining 24/7/365 service availability.\n• Mentored and led a team of engineers to achieve a record-setting Customer Satisfaction score of 95%.\n• Led a Severity 1 deep dive project resulting in more efficient ticket deflection.\n• Utilized Dell's KPIs to evaluate the customer journey and employee performance, developing a more data-driven approach to team management.",
+        "stack": [
+            "Team Leadership",
+            "Project Management",
+            "Escalation Management",
+            "Cross-functional Leadership",
+            "Performance Management",
+            "KPI Analysis",
+            "Employee Training",
+            "Customer Service",
+            "Strategic Planning"
+        ]
+    },
+    {
+        "company": "Xima Software",
+        "role": "Technical Support Manager",
+        "date": "2015 - 2018",
+        "description": "My success and camaraderie on the support team opened an opportunity for me to become the team manager. I was thrilled and readily accepted the job.\n\n• Managed a team of 12 support engineers, overseeing coverage from 2:00 AM - 10:00 PM.\n• Implemented new training processes and re-organized the support structure, reducing customer queue time by 50%.\n• Proactively managed and resolved complex technical escalations, ensuring the retention of strategic partnerships and key customer accounts valued over $100,000.\n• Interviewed, hired, and on-boarded new team members, cultivating a skilled and customer-centric support team that consistently upheld high service standards.\n• Achieved and maintained a 98% positive customer satisfaction (CSAT) rating.",
+        "stack": [
+            "Team Leadership",
+            "Project Management",
+            "Performance Management",
+            "Escalation Management",
+            "Zendesk",
+            "Cross-functional Leadership",
+            "Jira",
+            "Employee Training",
+            "Customer Service"
+        ]
+    },
+    {
+        "company": "Xima Software",
+        "role": "Technical Support Engineer",
+        "date": "2013 - 2015",
+        "description": "A good friend texted me and said “Hey, my brother started this cool new company and is looking for someone to pioneer a new international position. You should check it out.” I reached out and learned that they were building a two man team that would provide sales and technical support to their growing European customer base. I started a few weeks later.\n\n• Worked in a hybrid role providing sales and technical support to the European market.\n• Responsibilities included new partner training, customer onboarding, and ticket resolution.\n• Achieved a significant increase in sales and partner sign-ups, contributing to nearly 20% of Xima’s overall business.\n• Dubbed “The Satisfier” after maintaining the highest customer satisfaction rate and leading all employees in total ticket solves.",
+        "stack": [
+            "Telecommunications",
+            "Zendesk",
+            "Java",
+            "Customer Service",
+            "Troubleshooting",
+            "Networking",
+            "PostgreSQL",
+            "Sales Support"
+        ]
+    },
+    {
+        "company": "Bittercreek Technology, Inc",
+        "role": "Support Engineer",
+        "date": "2013",
+        "description": "In my first technology role, I joined a five-employee startup tasked with establishing a U.S. market for Hornbill's successful UK-based ITSM software. I was brought on as the technical support specialist.\n\n• Provided technical support for Hornbill ITSM software solution in the United States market.\n• Self-taught the software through website research, video tutorials, and hands-on practice.\n• Developed strong troubleshooting skills and positive work habits during the short tenure.",
+        "stack": [
+            "Self-Directed Learning",
+            "Troubleshooting",
+            "Customer Service",
+            "ITSM Software"
+        ]
+    },
+    {
+        "company": "Utah State University Eastern",
+        "role": "Administrative Assistant",
+        "date": "2012",
+        "description": "• Organized and documented Student Association Executive Team activities at Utah State University Eastern.\n• Scheduled events, prepared meeting agendas, and took meeting minutes.\n• Developed strong organizational and communication skills during this experience.",
+        "stack": [
+            "Documentation",
+            "Communication",
+            "Organization",
+            "Event Scheduling"
+        ]
+    }
+]

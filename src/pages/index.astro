@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Home">
+	<div class="h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 text-center bg-radial-gradient from-white to-gray-50 dark:from-zinc-950 dark:to-zinc-900">
+		<div class="max-w-3xl space-y-8 animate-fade-in-up">
+			
+			<div class="space-y-4">
+				<h1 class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 dark:text-white pb-2">
+					Hello, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400">Richard.</span>
+				</h1>
+				<p class="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 font-light leading-relaxed max-w-2xl mx-auto">
+					I build digital experiences that live on the internet. <br class="hidden sm:block"/>
+                    Senior Frontend Engineer passionate about performance, design, and user experience.
+				</p>
+			</div>
+
+			<div class="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+				<a href="/lab" class="px-8 py-3 rounded-full bg-gray-900 text-white font-medium hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
+					Explore The Lab
+				</a>
+				<a href="/resume" class="px-8 py-3 rounded-full bg-white text-gray-900 border border-gray-200 font-medium hover:bg-gray-50 hover:border-gray-300 dark:bg-zinc-900 dark:text-white dark:border-zinc-700 dark:hover:bg-zinc-800 transition-all transform hover:scale-105">
+					View Resume
+				</a>
+			</div>
+		</div>
+	</div>
+</Layout>
+
+<style>
+    .bg-radial-gradient {
+        background-image: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-to) 100%);
+    }
+
+	@keyframes fadeInUp {
+		from {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.animate-fade-in-up {
+		animation: fadeInUp 0.8s ease-out forwards;
+	}
+</style>

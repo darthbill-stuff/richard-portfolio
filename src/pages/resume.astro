@@ -1,0 +1,116 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ResumeTimeline from '../components/ResumeTimeline.jsx';
+import resumeData from '../data/resume-data.json';
+import { Printer, Linkedin } from 'lucide-react';
+---
+
+<Layout title="Resume">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
+     
+    <!-- Header with Actions -->
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-16 gap-4 no-print">
+      <div>
+        <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-2">My Journey</h1>
+        <p class="text-lg text-gray-600 dark:text-gray-400">
+          Professional experience & timeline.
+        </p>
+      </div>
+      
+      <div class="flex items-center gap-3">
+        <a 
+          href="https://www.linkedin.com/in/richard-christiansen/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center px-4 py-2 rounded-lg bg-[#0077b5] text-white hover:bg-[#006097] transition-colors font-medium text-sm"
+        >
+          <Linkedin className="w-4 h-4 mr-2" />
+          Connect on LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- Print Button (Sticky) -->
+    <button 
+      onclick="window.print()"
+      class="no-print fixed bottom-8 right-8 z-50 p-4 rounded-full bg-indigo-600 text-white shadow-lg hover:bg-indigo-700 hover:scale-105 transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      aria-label="Print Resume"
+    >
+      <Printer className="w-6 h-6" />
+    </button>
+
+    <!-- Timeline -->
+    <ResumeTimeline client:load data={resumeData} />
+
+    <!-- Print Only Header -->
+    <div class="hidden print-only mb-8 text-center pb-8 border-b border-black/10">
+        <h1 class="text-3xl font-bold mb-2">Richard Christiansen</h1>
+        <p class="text-gray-600">Senior Frontend Engineer</p>
+        <p class="text-sm text-gray-500 mt-2">richardchristiansen.com</p>
+    </div>
+
+	</div>
+</Layout>
+
+<style is:global>
+  @media print {
+    /* Hide non-printable elements */
+    .no-print, nav, footer, header {
+      display: none !important;
+    }
+
+    /* Show print-only elements */
+    .print-only {
+      display: block !important;
+    }
+
+    /* Reset Body / Layout */
+    body {
+      background: white !important;
+      color: black !important;
+      font-size: 11pt;
+    }
+
+    /* Reset Card Styles for Print */
+    .timeline-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      box-shadow: none !important;
+      border: 1px solid #eee !important;
+      background: none !important;
+      margin-bottom: 20px !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+
+    /* Remove specific timeline visual elements for cleaner print */
+    .timeline-card > div:nth-child(2) { /* The dot */
+      display: none !important;
+    }
+
+    /* Reset vertical line */
+    .relative > div.absolute {
+        display: none !important;
+    }
+
+    /* Layout adjustments for print (Stack vertically) */
+    .timeline-card {
+        flex-direction: column !important;
+        padding-left: 0 !important;
+        gap: 10px !important;
+    }
+
+    .timeline-card > div.md\:w-1\/3 {
+        width: 100% !important;
+        text-align: left !important;
+        padding-right: 0 !important;
+        margin-bottom: 5px;
+    }
+
+    .timeline-card > div.md\:w-2\/3 {
+        width: 100% !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+  }
+</style>
