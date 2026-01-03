@@ -1,21 +1,9 @@
 [
   {
-    "title": "Image Compressor",
-    "description": "A client-side image compression tool that preserves quality while reducing file size.",
+    "title": "Markdown Converter",
+    "description": "Use this Markdown Converter to update your text and improve your AI Prompts.",
     "type": "tool",
-    "link": "#launch-image-compressor"
-  },
-  {
-    "title": "Color Palette Generator",
-    "description": "Generate accessible color palettes based on a single primary color.",
-    "type": "tool",
-    "link": "#launch-color-palette"
-  },
-  {
-    "title": "Regex Tester",
-    "description": "Test and debug regular expressions in real-time.",
-    "type": "tool",
-    "link": "#launch-regex-tester"
+    "link": "/lab/markdown-converter"
   },
   {
     "title": "Space Invaders Clone",
