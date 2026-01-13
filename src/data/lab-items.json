@@ -6,15 +6,10 @@
     "link": "/lab/markdown-converter"
   },
   {
-    "title": "Space Invaders Clone",
-    "description": "A classic retro arcade game built with HTML5 Canvas.",
+    "title": "Coming Soon",
+    "description": "New Game Coming Soon",
     "type": "game",
-    "link": "#launch-space-invaders"
-  },
-  {
-    "title": "Sudoku Solver",
-    "description": "Interactive Sudoku solver using backtracking algorithm.",
-    "type": "game",
-    "link": "#launch-sudoku"
+    "link": "https://richardchristiansen.com/lab/#pending",
+    "linkText": "Pending"
   }
 ]
